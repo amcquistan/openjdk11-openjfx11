@@ -5,6 +5,7 @@ Demo App for an OpenJDK11 and OpenJFX11 Project
 * [Gradle](https://docs.gradle.org)
 * [OpenJDK 11](https://openjdk.java.net/install/)
 * [OpenJFX 11](https://wiki.openjdk.java.net/display/OpenJFX/Main)
+* [JUnit 5](https://junit.org/junit5/)
 
 ### Initial Repo Setup
 
@@ -78,10 +79,25 @@ OpenJDK 64-Bit Server VM 18.9 (build 11.0.1+13, mixed mode)
 - Select the location of the project root (ie, where the build.gradle file lives)
 - Convert project to Gradle project view in eclipse: Right Click Project > Configure > Gradle nature
 
+####  Windows Setup 
+
+- See this [SO question's response](https://stackoverflow.com/questions/52511778/how-to-install-openjdk-11-on-windows)
+
 ### Running Gradle Project
 
-To run
+To run on Mac OSX
 
 ```
 ./gradlew run
 ```
+
+To run on Windows
+
+```
+gradlew.bat run
+```
+
+### References
+
+- Need for use of separate FXAppLauncher class is described in [this SO question / response](https://stackoverflow.com/questions/52569724/javafx-11-create-a-jar-file-with-gradle)
+- 
