@@ -1,5 +1,5 @@
 # openjdk11-openjfx11
-Demo App for an OpenJDK11 and OpenJFX11 Project
+Demo App for an OpenJDK11 and OpenJFX11 Project with Gradle
 
 ### Dependencies
 * [Gradle](https://docs.gradle.org)
@@ -73,12 +73,14 @@ OpenJDK 64-Bit Server VM 18.9 (build 11.0.1+13, mixed mode)
 
 - New > Java Project
 - Name it whatever
+- Select your JDK 11 you just installed
 - Select the location of the project root (ie, where the build.gradle file lives)
 - Convert project to Gradle project view in eclipse: Right Click Project > Configure > Gradle nature
 
 #### B) Windows Setup 
 
 - See this [SO question's response](https://stackoverflow.com/questions/52511778/how-to-install-openjdk-11-on-windows)
+- See step 3 in Mac OSX Dev Setup for importing into eclipse
 
 ### Running Gradle Project
 
