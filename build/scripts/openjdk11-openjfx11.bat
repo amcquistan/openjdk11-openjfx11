@@ -66,7 +66,7 @@ set CMD_LINE_ARGS=%*
 set CLASSPATH=%APP_HOME%\lib\openjdk11-openjfx11.jar;%APP_HOME%\lib\javafx-controls-11-mac.jar;%APP_HOME%\lib\javafx-graphics-11-mac.jar;%APP_HOME%\lib\javafx-graphics-11.jar;%APP_HOME%\lib\javafx-base-11-mac.jar;%APP_HOME%\lib\javafx-base-11.jar
 
 @rem Execute openjdk11-openjfx11
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %OPENJDK11_OPENJFX11_OPTS%  -classpath "%CLASSPATH%" com.adammcquistan.openjfx.FXApp %CMD_LINE_ARGS%
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %OPENJDK11_OPENJFX11_OPTS%  -classpath "%CLASSPATH%" com.adammcquistan.openjfx.FXAppLauncher %CMD_LINE_ARGS%
 
 :end
 @rem End local scope for the variables with windows NT shell

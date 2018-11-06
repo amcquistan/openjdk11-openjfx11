@@ -1,3 +1,3 @@
 Manifest-Version: 1.0
-Main-Class: com.adammcquistan.openjfx.FXApp
+Main-Class: com.adammcquistan.openjfx.FXAppLauncher
 
