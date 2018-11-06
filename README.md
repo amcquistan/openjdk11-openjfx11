@@ -7,13 +7,10 @@ Demo App for an OpenJDK11 and OpenJFX11 Project
 * [OpenJFX 11](https://wiki.openjdk.java.net/display/OpenJFX/Main)
 * [JUnit 5](https://junit.org/junit5/)
 
-### Initial Repo Setup
-
-
 
 ### Development Environment Setup
 
-#### Mac OSX Setup mostly taken from [here](https://solarianprogrammer.com/2018/09/28/installing-openjdk-macos/)
+#### A) Mac OSX Setup mostly taken from [here](https://solarianprogrammer.com/2018/09/28/installing-openjdk-macos/)
 
 1) Download OpenJDK 11 and unzip the project then copy to location where other JDK's exist
 
@@ -79,7 +76,7 @@ OpenJDK 64-Bit Server VM 18.9 (build 11.0.1+13, mixed mode)
 - Select the location of the project root (ie, where the build.gradle file lives)
 - Convert project to Gradle project view in eclipse: Right Click Project > Configure > Gradle nature
 
-####  Windows Setup 
+#### B) Windows Setup 
 
 - See this [SO question's response](https://stackoverflow.com/questions/52511778/how-to-install-openjdk-11-on-windows)
 
